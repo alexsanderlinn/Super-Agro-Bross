@@ -1,0 +1,33 @@
+.prize-list {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.prize-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.prize-list ul li {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.prize-list ul li:last-child {
+    margin-right: 0;
+}
+
+.prize-list ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-bg {
+    max-width: 25%; /* Defina a largura máxima desejada */
+    height: auto; /* Para manter a proporção original da imagem */
+}
